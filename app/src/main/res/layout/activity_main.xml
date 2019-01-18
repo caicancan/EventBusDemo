@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.administrator.eventbusdemo.MainActivity">
+    tools:context="com.example.administrator.eventbusdemo.activities.MainActivity">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
+        android:background="@drawable/book"
         android:layout_height="match_parent">
         <TextView
             android:id="@+id/tv1"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusableInTouchMode="true"
+            android:text=""
+            />
 
         <Button
             android:id="@+id/btn1"
@@ -21,5 +29,18 @@
             android:layout_height="wrap_content" />
 
     </LinearLayout>
+<!--<RelativeLayout-->
+    <!--android:id="@+id/rl"-->
+    <!--android:background="@android:color/black"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+<!--</RelativeLayout>-->
+    <!--<TextView-->
+        <!--android:text="缺货"-->
+        <!--android:textSize="100dp"-->
+        <!--android:textColor="@android:color/holo_orange_light"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
 
-</android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

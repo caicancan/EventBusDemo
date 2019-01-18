@@ -28,4 +28,11 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     compile 'org.greenrobot:eventbus:3.0.0'
+    // Okhttp库
+    compile 'com.squareup.okhttp3:okhttp:3.1.2'
+    // Retrofit库
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+
+    compile 'io.reactivex:rxjava:1.0.14'
+    compile 'io.reactivex:rxandroid:1.0.1'
 }

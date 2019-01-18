@@ -3,7 +3,7 @@ package com.example.administrator.eventbusdemo.fragments;
 import android.content.Context;
 import android.support.v4.app.Fragment;
 
-import com.example.administrator.eventbusdemo.ThirdActivity;
+import com.example.administrator.eventbusdemo.activities.ThirdActivity;
 import com.example.administrator.eventbusdemo.struct.FunctionManager;
 
 /**

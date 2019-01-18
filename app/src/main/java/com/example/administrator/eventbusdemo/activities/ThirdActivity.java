@@ -1,4 +1,4 @@
-package com.example.administrator.eventbusdemo;
+package com.example.administrator.eventbusdemo.activities;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -10,6 +10,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.example.administrator.eventbusdemo.R;
 import com.example.administrator.eventbusdemo.fragments.BaseFragment;
 import com.example.administrator.eventbusdemo.fragments.NoParamNoResultFragment;
 import com.example.administrator.eventbusdemo.struct.FunctionManager;

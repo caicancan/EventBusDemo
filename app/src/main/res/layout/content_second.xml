@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.administrator.eventbusdemo.SecondActivity"
+    tools:context="com.example.administrator.eventbusdemo.activities.SecondActivity"
     tools:showIn="@layout/activity_second">
     <LinearLayout
         android:orientation="vertical"
@@ -18,7 +18,12 @@
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/btn3"
-            android:text="粘性"
+            android:text="万能的interface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn4"
+            android:text="RxJava"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>

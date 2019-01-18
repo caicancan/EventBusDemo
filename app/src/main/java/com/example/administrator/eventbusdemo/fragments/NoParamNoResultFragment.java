@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.example.administrator.eventbusdemo.R;
-import com.example.administrator.eventbusdemo.ThirdActivity;
+import com.example.administrator.eventbusdemo.activities.ThirdActivity;
 
 public class NoParamNoResultFragment extends BaseFragment {
 
